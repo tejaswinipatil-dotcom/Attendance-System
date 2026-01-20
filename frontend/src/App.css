@@ -1,0 +1,73 @@
+body {
+  background: #f4f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.camera-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.attendance-buttons button {
+  background: #27ae60;
+}
+
+.attendance-buttons button:last-child {
+  background: #e74c3c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #3498db;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
